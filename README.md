@@ -124,7 +124,6 @@ java -jar /usr/local/bin/prog8c-11.1-all.jar -target cx16 -dontsplitarrays jedit
     - `dicconv.py`: Tool to convert SKK dictionary to binary format
   - `fontconv/`: Font conversion tools
     - `mkfont.py`: Tool to convert font images to binary format
-  - `jeditc/`: Additional compilation tools
 
 ## License
 

@@ -125,7 +125,6 @@ java -jar /usr/local/bin/prog8c-11.1-all.jar -target cx16 -dontsplitarrays jedit
     - `dicconv.py`: SKK辞書をバイナリ形式に変換するツール
   - `fontconv/`: フォント変換ツール
     - `mkfont.py`: フォント画像をバイナリ形式に変換するツール
-  - `jeditc/`: 追加のコンパイルツール
 
 ## ライセンス
 
