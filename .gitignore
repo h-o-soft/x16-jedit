@@ -1,0 +1,27 @@
+/* 以下の内容を.gitignoreに記述します */
+
+# バイナリファイルおよび生成物
+*.bin
+*.asm
+*.prg
+*.vice-mon-list
+
+# 一時ファイル、ログなど
+*.tmp
+*.temp
+*.log
+tmp/
+build/
+
+# エディタのバックアップファイルなど
+*~
+*.bak
+*.swp
+*.swo
+
+# macOS固有のファイル
+.DS_Store
+
+# Visual Studio Code関連
+*.code-workspace 
+.vscode/ 
