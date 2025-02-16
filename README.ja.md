@@ -115,10 +115,17 @@ java -jar /usr/local/bin/prog8c-11.1-all.jar -target cx16 -dontsplitarrays jedit
 
 ### プロジェクト構成
 
-- `jedit.p8`: メインのエディタプログラム
-- `tinyskk.p8`: SKK風漢字変換システムの実装
-- `dicconv/`: 辞書変換ツール
-  - `dicconv.py`: SKK辞書をバイナリ形式に変換するツール
+- ソースファイル:
+  - `jedit.p8`: メインのエディタプログラム
+  - `tinyskk.p8`: SKK風漢字変換システムの実装
+  - `jtxt.p8`: 日本語テキスト表示
+  - `bmem.p8`: バンクメモリ管理
+- 変換ツール:
+  - `dicconv/`: 辞書変換ツール
+    - `dicconv.py`: SKK辞書をバイナリ形式に変換するツール
+  - `fontconv/`: フォント変換ツール
+    - `mkfont.py`: フォント画像をバイナリ形式に変換するツール
+  - `jeditc/`: 追加のコンパイルツール
 
 ## ライセンス
 

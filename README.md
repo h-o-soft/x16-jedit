@@ -114,10 +114,17 @@ java -jar /usr/local/bin/prog8c-11.1-all.jar -target cx16 -dontsplitarrays jedit
 
 ### Project Structure
 
-- `jedit.p8`: Main editor program
-- `tinyskk.p8`: SKK-style kanji conversion system implementation
-- `dicconv/`: Dictionary conversion tools
-  - `dicconv.py`: Tool to convert SKK dictionary to binary format
+- Source files:
+  - `jedit.p8`: Main editor program
+  - `tinyskk.p8`: SKK-style kanji conversion system implementation
+  - `jtxt.p8`: Japanese text display
+  - `bmem.p8`: Bank memory management
+- Conversion tools:
+  - `dicconv/`: Dictionary conversion tools
+    - `dicconv.py`: Tool to convert SKK dictionary to binary format
+  - `fontconv/`: Font conversion tools
+    - `mkfont.py`: Tool to convert font images to binary format
+  - `jeditc/`: Additional compilation tools
 
 ## License
 
